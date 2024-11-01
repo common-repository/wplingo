@@ -1,0 +1,1382 @@
+.lingo-no-js {
+    display: block;
+}
+
+.lingo-js {
+    display: none;
+}
+
+
+.lingo-forum-group,
+.lingo-list-empty {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin: 30px 0px;
+    /*border-bottom: none;*/
+}
+.lingo-list-empty {
+    padding: 10px;
+    text-align: center;
+}
+
+.lingo-forum-description,
+.lingo-forum-pagination {
+    font-size: 11px;
+}
+
+.lingo-half {
+    width: 50%;
+    float: left;
+}
+
+.lingo-topic-tags {
+    width: 40%;
+    float: left;
+}
+
+.lingo-topic-meta {
+    width: 60%;
+    float: left;
+}
+
+.lingo-topic-wrapper {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.lingo-forum-title a {
+    border: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.lingo-small-link,
+.lingo-small-link a{
+    font-size: 11px;
+}
+
+.entry-content .lingo-forum-activity a, .entry-content .lingo-forum-activity a:visited,
+.entry-content .lingo-forum-title a, .entry-content .lingo-forum-title a:visited,
+.lingo-forum-activity a, .lingo-forum-activity a:visited,
+.lingo-forum-title a, .lingo-forum-title a:visited {
+    color: #0073aa;
+    border: 0px;
+    text-decoration: none;
+}
+
+.entry-content .lingo-forum-activity a, .entry-content .lingo-forum-activity a:visited,
+.entry-content .lingo-forum-activity,
+.entry-content .lingo-forum-stats ,
+.lingo-forum-activity a, .lingo-forum-activity a:visited,
+.lingo-forum-activity,
+.lingo-forum-stats {
+    font-size: 10px;
+}
+
+.entry-content .lingo-post-wrapper a, .entry-content .lingo-post-wrapper a:visited,
+.entry-content .lingo-breadcrumbs a, .entry-content .lingo-breadcrumbs a:visited,
+.entry-content .lingo-grid-col a, .entry-content .lingo-grid-col a:visited,
+.lingo-post-wrapper a, .lingo-post-wrapper a:visited,
+.lingo-breadcrumbs a, .lingo-breadcrumbs a:visited,
+.lingo-grid-col a, .lingo-grid-col a:visited {
+    color: #0073aa;
+}
+
+.entry-content .lingo-post-wrapper a:hover,
+.entry-content .lingo-breadcrumbs a:hover,
+.entry-content .lingo-forum-activity a:hover,
+.entry-content .lingo-forum-title a:hover,
+.entry-content .lingo-grid-col a:hover,
+.lingo-post-wrapper a:hover,
+.lingo-breadcrumbs a:hover,
+.lingo-forum-activity a:hover,
+.lingo-forum-title a:hover,
+.lingo-grid-col a:hover {
+    color: #00a0d2;
+}
+
+
+.lingo-forum-title a:hover,
+.lingo-forum-activity a:hover {
+    color: #00a0d2;
+    border: 0px;
+}
+
+.lingo-forum-description a {
+    font-weight: normal;
+}
+
+.lingo-header {
+    display: inline-block;
+    font-size: 15px; 
+    box-sizing: border-box;
+}
+.lingo-forum-header {
+    background-color: #f5f5f5; 
+    padding: 10px 0px;
+    font-size: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: #444;
+    border-top: 1px solid #e6e6e6;
+}
+
+.lingo-forum-header-image,
+.lingo-forum-image {
+    width: 8%;
+}
+
+.lingo-forum-header-title {
+    padding: 0px 10px;
+}
+
+.lingo-forum-header-title,
+.lingo-forum-title{
+    width: 52%;
+}
+.lingo-forum-header-title-short,
+.lingo-forum-title-short {
+    width: 47%;
+}
+
+.lingo-forum-header-stats,
+.lingo-forum-stats {
+    width: 15%;
+}
+.lingo-forum-header-stats-half,
+.lingo-forum-stats-half {
+    width: 10%; 
+}
+
+.lingo-forum-header-activity,
+.lingo-forum-activity {
+    width: 25%;
+}
+
+.lingo-forum-list-item:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.lingo-forum-list-item {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    padding: 5px 0px;
+    /*background-color: #f5f5f5;*/
+}
+.lingo-forum-list-item:hover {
+    background-color: #f5f5f5;
+}
+.lingo-list-no-border{
+    border: 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.lingo-column {
+    float: left;
+    font-size: 12px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.lingo-forum-image {
+    text-align: center;
+    font-size: 9px;
+}
+
+.lingo-forum-new-posts {
+    color: #ffa500;
+}
+
+.lingo-topic-tag {
+    display: inline;
+    border: 1px solid #444;
+    font-weight: normal;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+
+/*.lingo-forum-description a.page-numbers{
+    color: #0073aa;
+}*/
+.lingo-topic-tag a,
+.entry-content .lingo-forum-description a.page-numbers,
+.entry-content .lingo-forum-pagination a.page-numbers,
+.entry-content .lingo-pagination a.page-numbers,
+.entry-content .lingo-pagination span.page-numbers,
+.lingo-forum-description a.page-numbers,
+.lingo-forum-pagination a.page-numbers,
+.lingo-pagination a.page-numbers,
+.lingo-pagination span.page-numbers{
+    font-weight: normal;
+    padding: 1px 5px;
+    border: 1px solid #0073aa;
+    border-radius: 3px;
+    color: #0073aa;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.entry-content .lingo-pagination a.page-numbers,
+.entry-content .lingo-pagination span.page-numbers,
+.lingo-pagination a.page-numbers,
+.lingo-pagination span.page-numbers{
+    font-size: 14px;
+}
+
+.entry-content .lingo-topic-tag a:hover,
+.entry-content .lingo-forum-description a.page-numbers:hover,
+.entry-content .lingo-forum-pagination a.page-numbers:hover,
+.entry-content .lingo-pagination a.page-numbers:hover,
+.lingo-topic-tag a:hover,
+.lingo-forum-description a.page-numbers:hover,
+.lingo-forum-pagination a.page-numbers:hover,
+.lingo-pagination a.page-numbers:hover{
+    border: 1px solid #00a0d2;
+    color: #00a0d2;
+}
+
+.lingo-forum-description span.page-numbers:hover,
+.lingo-pagination span.page-numbers:hover {
+    cursor: default;
+}
+
+.entry-content .lingo-forum-description span.current,
+.entry-content .lingo-pagination span.current,
+.lingo-forum-description span.current,
+.lingo-pagination span.current {
+    border: 1px solid #444;
+    color: #444;
+}
+
+.lingo_button,
+.lingo-forum-actions input[type=submit],
+.lingo-post-message-edit input[type=submit],
+.entry-content .lingo-post-message-edit input[type=submit]{
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    text-decoration: none;
+    padding: 5px 10px;
+    -webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #444;
+    background-image: none;
+}
+
+.lingo-action-buttons a.lingo_button:visited,
+a.lingo_button:visited,
+.entry-content a.lingo_button:visited {
+    color: #444;
+}
+
+.lingo_button:hover,
+.lingo-action-buttons a.lingo_button_hover,
+.entry-content .lingo-form input[type=submit]:hover,
+.entry-content .lingo-post-message-edit input[type=submit]:hover,
+.lingo-form input[type=submit]:hover,
+.lingo-post-message-edit input[type=submit]:hover{
+    background-color: #e5e5e5;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.lingo-action-buttons {
+    width: 75%;
+    float: left;
+    box-sizing: border-box;
+}
+.lingo-pagination {
+    width: 25%;
+    float: left;
+    text-align: right;
+    line-height: 34px;
+    box-sizing: border-box;
+}
+
+.lingo-user-avatar-small {
+    float: left;
+    margin-right: 5px;
+    border-radius: 3px;
+    line-height: 20px;
+}
+
+.lingo-success {
+    width: auto;
+    padding: 10px;
+    background-color: #eefcee;
+    color: #55872f;
+    border: 1px solid #55872f;
+    font-weight: bold;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.lingo-warning {
+    width: auto;
+    padding: 10px;
+    background-color: #f9f8c3;
+    color: #82570c;
+    border: 1px solid #82570c;
+    font-weight: bold;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.lingo-error {
+    width: auto;
+    padding: 10px;
+    background-color: #fde2da;
+    color: #b10008;
+    border: 1px solid #b10008;
+    font-weight: bold;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.lingo-info {
+    width: auto;
+    padding: 10px;
+    background-color: #edf7fd;
+    color: #355fb9;
+    border: 1px solid #355fb9;
+    font-weight: bold;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+
+.lingo-post-wrapper {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0px;
+    display: inline-block;
+}
+/*.lingo-post-wrapper a {
+    color: #0073aa;
+}
+.lingo-post-wrapper a:hover {
+    color: #00a0d2;
+}*/
+
+.lingo-post-author {
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.lingo-post-author img {
+    margin-bottom: 10px;
+}
+.lingo-post-content {
+    width: 80%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.lingo-post-metadata,
+.lingo-post-admin {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.lingo-post-admin {
+    text-align: right;
+}
+
+.lingo-post-meta,
+.lingo-post-message,
+.lingo-post-message-edit {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.lingo-user-avatar {
+    border-radius: 5px;
+}
+
+.lingo-red {
+    color: #a00;
+}
+.lingo-red:hover {
+    color: red;
+}
+
+.lingo-topic-actions,
+.lingo-moderator-actions{
+    width: 100%;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+.lingo-forum-actions {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.lingo-form .lingo-form-required {
+
+    font-weight: bold;
+    color: #e9322d;
+}
+
+.lingo-form .lingo-field-error {
+    border-top: 1px solid #e9322d;
+    border-bottom: 1px solid #e9322d;
+    background-color: peachpuff;
+}
+
+.lingo-form .lingo-field-error-list {
+    list-style-type: circle !important;
+    margin: 0 0 0 31% !important;
+    padding: 0 !important;
+    clear: both;
+    overflow: hidden;
+}
+
+.lingo-form .lingo-field-error-list > li {
+    color: #b34040;
+    margin: 0 0 0 36px !important;
+    padding: 0 !important;
+}
+
+.lingo-form.lingo-form-aligned .lingo-control-group {
+    clear: both;
+    overflow: hidden;
+}
+
+.lingo-form.lingo-form-aligned .wp-editor-wrap { 
+    width:60%;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 0 0 0.3em;
+}
+.lingo-form.lingo-form-aligned .wp-editor-wrap .wp-editor-container { 
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.lingo-form.lingo-form-aligned .lingo-control-group label {
+    float: left;
+}
+
+.lingo-form.lingo-form-aligned .lingo-control-group > div {
+    width: 65%;
+    float: left;
+    padding: 0 0 0 0.3em;
+}
+
+.lingo-form-short.lingo-form-aligned .lingo-control-group > div {
+    width: 100%;
+    padding: 0 0 0 0.3em;
+}
+.lingo-form-short.lingo-form-aligned .lingo-control-group label {
+    padding: 0 0 1em 0.4em;
+}
+
+.lingo-form.lingo-form-aligned .lingo-control-group.lingo-field-text label,
+.lingo-form.lingo-form-aligned .lingo-control-group.lingo-field-select label,
+.lingo-form.lingo-form-aligned .lingo-control-group[class*='lingo-field-text-'] label,
+.lingo-form.lingo-form-aligned .lingo-control-group[class*='lingo-field-select-'] label {
+    float: none;
+}
+
+.lingo-form.lingo-form-aligned .lingo-control-group > div.lingo-autocomplete-holder,
+.lingo-form.lingo-form-aligned .lingo-control-group > div.lingo-multiselect-holder {
+    float: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.lingo-form.lingo-form-aligned .lingo-control-group.lingo-field-checkbox div > label {
+    width: 100%;
+    display: inline;
+}
+
+.lingo-form input[type="text"],
+.lingo-form input[type="password"],
+.lingo-form input[type="email"],
+.lingo-form input[type="url"],
+.lingo-form input[type="date"],
+.lingo-form input[type="month"],
+.lingo-form input[type="time"],
+.lingo-form input[type="datetime"],
+.lingo-form input[type="datetime-local"],
+.lingo-form input[type="week"],
+.lingo-form input[type="number"],
+.lingo-form input[type="search"],
+.lingo-form input[type="tel"],
+.lingo-form input[type="color"],
+.lingo-form select,
+.lingo-form textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    /*
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+
+    */
+    width:60%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.lingo-form-short input[type="text"],
+.lingo-form-short input[type="password"],
+.lingo-form-short input[type="email"],
+.lingo-form-short input[type="url"],
+.lingo-form-short input[type="date"],
+.lingo-form-short input[type="month"],
+.lingo-form-short input[type="time"],
+.lingo-form-short input[type="datetime"],
+.lingo-form-short input[type="datetime-local"],
+.lingo-form-short input[type="week"],
+.lingo-form-short input[type="number"],
+.lingo-form-short input[type="search"],
+.lingo-form-short input[type="tel"],
+.lingo-form-short input[type="color"],
+.lingo-form-short select,
+.lingo-form-short textarea {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    /*
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+
+    */
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.lingo-form input:not([type]) {
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    /*
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    */
+}
+
+
+/* Chrome (as of v.32/34 on OS X) needs additional room for color to display. */
+/* May be able to remove this tweak as color inputs become more standardized across browsers. */
+.lingo-form input[type="color"] {
+    padding: 0.2em 0.5em;
+}
+
+
+.lingo-form input[type="text"]:focus,
+.lingo-form input[type="password"]:focus,
+.lingo-form input[type="email"]:focus,
+.lingo-form input[type="url"]:focus,
+.lingo-form input[type="date"]:focus,
+.lingo-form input[type="month"]:focus,
+.lingo-form input[type="time"]:focus,
+.lingo-form input[type="datetime"]:focus,
+.lingo-form input[type="datetime-local"]:focus,
+.lingo-form input[type="week"]:focus,
+.lingo-form input[type="number"]:focus,
+.lingo-form input[type="search"]:focus,
+.lingo-form input[type="tel"]:focus,
+.lingo-form input[type="color"]:focus,
+.lingo-form select:focus,
+.lingo-form textarea:focus {
+    outline: 0;
+    outline: thin dotted \9; /* IE6-9 */
+    border-color: #129FEA;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.lingo-form input:not([type]):focus {
+    outline: 0;
+    outline: thin dotted \9; /* IE6-9 */
+    border-color: #129FEA;
+}
+
+.lingo-form input[type="file"]:focus,
+.lingo-form input[type="radio"]:focus,
+.lingo-form input[type="checkbox"]:focus {
+    outline: thin dotted #333;
+    outline: 1px auto #129FEA;
+}
+.lingo-form .lingo-checkbox,
+.lingo-form .lingo-radio {
+    margin: 0.5em 0;
+    display: block;
+}
+
+.lingo-form input[type="text"][disabled],
+.lingo-form input[type="password"][disabled],
+.lingo-form input[type="email"][disabled],
+.lingo-form input[type="url"][disabled],
+.lingo-form input[type="date"][disabled],
+.lingo-form input[type="month"][disabled],
+.lingo-form input[type="time"][disabled],
+.lingo-form input[type="datetime"][disabled],
+.lingo-form input[type="datetime-local"][disabled],
+.lingo-form input[type="week"][disabled],
+.lingo-form input[type="number"][disabled],
+.lingo-form input[type="search"][disabled],
+.lingo-form input[type="tel"][disabled],
+.lingo-form input[type="color"][disabled],
+.lingo-form select[disabled],
+.lingo-form textarea[disabled] {
+    cursor: not-allowed;
+    /*background-color: #eaeded;*/
+    /*color: #cad2d3;*/
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.lingo-form input:not([type])[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+.lingo-form input[readonly],
+.lingo-form select[readonly],
+.lingo-form textarea[readonly] {
+    background: #eee; /* menu hover bg color */
+    color: #777; /* menu text color */
+    border-color: #ccc;
+}
+
+.lingo-form input:focus:invalid,
+.lingo-form textarea:focus:invalid,
+.lingo-form select:focus:invalid {
+    color: #b94a48;
+    border-color: #ee5f5b;
+}
+.lingo-form input:focus:invalid:focus,
+.lingo-form textarea:focus:invalid:focus,
+.lingo-form select:focus:invalid:focus {
+    border-color: #e9322d;
+}
+.lingo-form input[type="file"]:focus:invalid:focus,
+.lingo-form input[type="radio"]:focus:invalid:focus,
+.lingo-form input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e9322d;
+}
+.lingo-form select {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.lingo-form select[multiple] {
+    height: auto;
+}
+.lingo-form label {
+    margin: 0.5em 0 0.2em;
+}
+.lingo-form fieldset {
+    margin: 0;
+    padding: 0.35em 0 0.75em;
+    border: 0;
+}
+.lingo-form legend {
+    display: block;
+    width: 100%;
+    padding: 0.3em 0;
+    margin-bottom: 0.3em;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.lingo-form-stacked input[type="text"],
+.lingo-form-stacked input[type="password"],
+.lingo-form-stacked input[type="email"],
+.lingo-form-stacked input[type="url"],
+.lingo-form-stacked input[type="date"],
+.lingo-form-stacked input[type="month"],
+.lingo-form-stacked input[type="time"],
+.lingo-form-stacked input[type="datetime"],
+.lingo-form-stacked input[type="datetime-local"],
+.lingo-form-stacked input[type="week"],
+.lingo-form-stacked input[type="number"],
+.lingo-form-stacked input[type="search"],
+.lingo-form-stacked input[type="tel"],
+.lingo-form-stacked input[type="color"],
+.lingo-form-stacked select,
+.lingo-form-stacked label,
+.lingo-form-stacked textarea {
+    display: block;
+    margin: 0.25em 0;
+}
+
+/*
+Need to separate out the :not() selector from the rest of the CSS 2.1 selectors
+since IE8 won't execute CSS that contains a CSS3 selector.
+*/
+.lingo-form-stacked input:not([type]) {
+    display: block;
+    margin: 0.25em 0;
+}
+.lingo-form-aligned input,
+.lingo-form-aligned textarea,
+.lingo-form-aligned select,
+/* NOTE: pure-help-inline is deprecated. Use .lingo-form-message-inline instead. */
+.lingo-form-aligned .lingo-help-inline,
+.lingo-form-message-inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
+.lingo-form-aligned textarea {
+    vertical-align: top;
+}
+
+/* Aligned Forms */
+.lingo-form-aligned .lingo-control-group {
+    margin-bottom: 0.5em;
+}
+.lingo-form-aligned .lingo-control-group > label {
+    /*text-align: right;*/
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    margin: 0 1em 0 0;
+}
+.lingo-form-aligned .lingo-controls {
+    margin: 1.5em 0 0 10em;
+}
+
+/* Rounded Inputs */
+.lingo-form input.lingo-input-rounded,
+.lingo-form .lingo-input-rounded {
+    border-radius: 2em;
+    padding: 0.5em 1em;
+}
+
+/* Grouped Inputs */
+.lingo-form .lingo-group fieldset {
+    margin-bottom: 10px;
+}
+.lingo-form .lingo-group input {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    position: relative;
+    top: -1px;
+}
+.lingo-form .lingo-group input:focus {
+    z-index: 2;
+}
+.lingo-form .lingo-group input:first-child {
+    top: 1px;
+    border-radius: 4px 4px 0 0;
+}
+.lingo-form .lingo-group input:last-child {
+    top: -2px;
+    border-radius: 0 0 4px 4px;
+}
+.lingo-form .lingo-group button {
+    margin: 0.35em 0;
+}
+
+.lingo-form .lingo-input-1 {
+    width: 100%;
+}
+.lingo-form .lingo-input-2-3 {
+    width: 66%;
+}
+.lingo-form .lingo-input-1-2 {
+    width: 50%;
+}
+.lingo-form .lingo-input-1-3 {
+    width: 33%;
+}
+.lingo-form .lingo-input-1-4 {
+    width: 25%;
+}
+
+/* Inline help for forms */
+/* NOTE: pure-help-inline is deprecated. Use .lingo-form-message-inline instead. */
+.lingo-form .lingo-help-inline,
+.lingo-form-message-inline {
+    display: inline-block;
+    padding-left: 0.3em;
+    color: #666;
+    vertical-align: middle;
+    font-size: 0.875em;
+}
+
+/* Block help for forms */
+.lingo-form-message {
+    display: block;
+    color: #666;
+    font-size: 0.875em;
+}
+
+.lingo-form .lingo-form-input-group label {
+    margin: 0;
+}
+
+@media only screen and (max-width : 480px) {
+    .lingo-form button[type="submit"] {
+        margin: 0.7em 0 0;
+    }
+
+    .lingo-form input:not([type]),
+    .lingo-form input[type="text"],
+    .lingo-form input[type="password"],
+    .lingo-form input[type="email"],
+    .lingo-form input[type="url"],
+    .lingo-form input[type="date"],
+    .lingo-form input[type="month"],
+    .lingo-form input[type="time"],
+    .lingo-form input[type="datetime"],
+    .lingo-form input[type="datetime-local"],
+    .lingo-form input[type="week"],
+    .lingo-form input[type="number"],
+    .lingo-form input[type="search"],
+    .lingo-form input[type="tel"],
+    .lingo-form input[type="color"],
+    .lingo-form label {
+        margin-bottom: 0.3em;
+        display: block;
+    }
+
+    .lingo-group input:not([type]),
+    .lingo-group input[type="text"],
+    .lingo-group input[type="password"],
+    .lingo-group input[type="email"],
+    .lingo-group input[type="url"],
+    .lingo-group input[type="date"],
+    .lingo-group input[type="month"],
+    .lingo-group input[type="time"],
+    .lingo-group input[type="datetime"],
+    .lingo-group input[type="datetime-local"],
+    .lingo-group input[type="week"],
+    .lingo-group input[type="number"],
+    .lingo-group input[type="search"],
+    .lingo-group input[type="tel"],
+    .lingo-group input[type="color"] {
+        margin-bottom: 0;
+    }
+
+    .lingo-form-aligned .lingo-control-group label {
+        margin-bottom: 0.3em;
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+
+    .lingo-form-aligned .lingo-controls {
+        margin: 1.5em 0 0 0;
+    }
+
+    /* NOTE: pure-help-inline is deprecated. Use .lingo-form-message-inline instead. */
+    .lingo-form .lingo-help-inline,
+    .lingo-form-message-inline,
+    .lingo-form-message {
+        display: block;
+        font-size: 0.75em;
+        /* Increased bottom padding to make it group with its related input element. */
+        padding: 0.2em 0 0.8em;
+    }
+}
+
+
+/* ADVERTS GALLERY */
+.lingo-form-aligned #lingo-plupload-upload-ui {
+    width:60%;
+    float:left;
+}
+
+span.description {
+    font-size: small;
+    font-style: italic;
+    margin-left: 35%;
+}
+
+
+.lingo-removed-post {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #eefcee;
+}
+.lingo-removed-post p {
+    padding: 0px;
+    margin: 0px;
+}
+.lingo-breadcrumbs {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #e6e6e6;
+}
+
+.lingo-user-page-header {
+    clear: both;
+    overflow: hidden;
+    padding: 1em 0 1em 0;
+    margin: 1.5em 0 1.5em 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    background-color: #fcfcfc;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.lingo-user-page-header-image {
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0px;
+}
+.lingo-user-page-header-content {
+    float: left;
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+.lingo-user-page-header-title {
+    display: block;
+    line-height: 34px;
+    font-size: 1.4em;
+}
+.lingo-user-page-header-subtitle {
+    display: block;
+    font-size: 1.2em;
+}
+.lingo-grid {
+    margin: 0%;
+    box-sizing: border-box;
+}
+.lingo-grid-closed-top {
+    border-top: 1px solid #e6e6e6;
+}
+.lingo-grid-double-top {
+    border-top: 2px solid #e6e6e6;
+    margin-top: 5px;
+}
+.lingo-grid .lingo-grid-row {
+    clear: both;
+    overflow: hidden;
+    padding: 0.75em 0 0.75em 0;
+    margin: 0 0 0 0;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+.lingo-grid .lingo-grid-row > div {
+    padding: 0 1% 0 1%;
+    box-sizing: border-box;
+}
+.lingo-grid .lingo-grid-10 {
+    width: 10%;
+}
+.lingo-grid .lingo-grid-20 {
+    width: 20%;
+}
+.lingo-grid .lingo-grid-30 {
+    width: 30%;
+}
+.lingo-grid .lingo-grid-40 {
+    width: 40%;
+}
+.lingo-grid .lingo-grid-50 {
+    width: 50%;
+}
+.lingo-grid .lingo-grid-60 {
+    width: 60%;
+}
+.lingo-grid .lingo-grid-70 {
+    width: 70%;
+}
+.lingo-grid .lingo-grid-80 {
+    width: 80%;
+}
+.lingo-grid .lingo-grid-90 {
+    width: 90%;
+}
+.lingo-grid .lingo-grid-100 {
+    width: 100%;
+}
+.lingo-grid .lingo-grid-col {
+    float: left;
+}
+
+.lingo-forum-actions #lingo_search,
+.lingo-forum-actions #lingo_subscribe_emial,
+.entry-content .lingo-forum-actions #lingo_search,
+.entry-content .lingo-forum-actions #lingo_subscribe_emial {
+    width: 80%;
+    padding: 5px 10px;
+    height: 36px;
+    border-right: 0px;
+    border-color: #d7d7d7;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    float:left;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.lingo-forum-actions #lingo_subscribe_emial:active,
+.lingo-forum-actions #lingo_subscribe_emial:focus,
+.lingo-forum-actions #lingo_search:active,
+.lingo-forum-actions #lingo_search:focus,
+.entry-content .lingo-forum-actions #lingo_subscribe_emial:active,
+.entry-content .lingo-forum-actions #lingo_subscribe_emial:focus,
+.entry-content .lingo-forum-actions #lingo_search:active,
+.entry-content .lingo-forum-actions #lingo_search:focus{
+    border-color: #0073aa;
+    border-right: 1px solid #0073aa;
+    outline: none;
+}
+
+.lingo-forum-actions input[type=submit],
+.lingo-form input[type=submit],
+.entry-content .lingo-forum-actions input[type=submit],
+.entry-content .lingo-form input[type=submit] {
+    border: 1px solid #d7d7d7;
+    background-color: #e5e5e5;
+    height: 36px;
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: none;
+    background-image: none;
+    border-radius: 0px 3px 3px 0px;
+    font-size: 11px;
+    -webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+}
+
+.lingo-forum-actions input[type=submit],
+.entry-content .lingo-forum-actions input[type=submit] {
+    width: 20%;
+}
+
+.lingo-forum-actions input[type=submit]:hover,
+.lingo-form input[type=submit]:hover,
+.entry-content .lingo-forum-actions input[type=submit]:hover,
+.entry-content .lingo-form input[type=submit]:hover {
+    border-color: #bbb;
+    background-color: #f5f5f5;
+}
+
+.lingo_search_result {
+    background-color: #abffa3; 
+}
+
+.lingo-no-decoration-ul,
+.lingo-no-decoration-ul ul,
+.entry-content ul.lingo-no-decoration-ul,
+.entry-content ul.lingo-no-decoration-ul ul{
+    list-style-type: none;
+}
+
+.lingo-action-hidden,
+.entry-content .lingo-action-hidden {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: none;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+.lingo-action-hidden-window,
+.entry-content .lingo-action-hidden-window {
+    padding: 0px;
+}
+.lingo-action-hidden-window form,
+.entry-content .lingo-action-hidden-window form {
+    padding: 10px;
+}
+
+.lingo-new-posts i.fa {
+    color: #fa5337;
+}
+
+
+.lingo-topic-item-avatar,
+.lingo-user-avatar,
+.lingo-user-avatar-small,
+.entry-content .lingo-topic-item-avatar,
+.entry-content .lingo-user-avatar,
+.entry-content .lingo-user-avatar-small{
+    box-shadow: none;
+}
+
+.lingo-topic-item-avatar,
+.lingo-user-avatar {
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.lingo-new-posts .lingo-topic-item-avatar,
+.lingo-new-posts .lingo-user-avatar {
+    border: 1px solid #fa5337;
+}
+
+.lingo-new-posts .lingo-first-unread-link i {
+    /*color: #e5e5e5;*/
+    color: #fa5337;
+}
+
+.lingo-new-posts .lingo-first-unread-link i:hover {
+    color: #fb0000;
+}
+
+.lingo-first-unread-link i,
+.lingo-last-post i {
+    color: #999;
+}
+
+.lingo-last-post i:hover {
+    color: #00a0d2;
+}
+
+
+i.lingo-topic-status-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    bottom: -4px;
+    right: -1px;
+}
+.lingo-image-wrapper {
+    position: relative;
+}
+
+.lingo-removed-post-msg,
+.entry-content .lingo-removed-post-msg {
+    margin: 0px;
+}
+
+.lingo-dropdown-container, 
+.entry-content .lingo-dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.lingo-dropdown-menu,
+.entry-content .lingo-dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    z-index: 9999;
+}
+.lingo-dropdown-menu li,
+.entry-content .lingo-dropdown-menu li {
+    
+    margin: 0px;
+    box-sizing: border-box;
+    min-width: 120px;
+    font-size: 12px;
+}
+
+.lingo-dropdown-menu li a,
+.entry-content .lingo-dropdown-menu li a {
+    text-decoration: none;
+    color: #000;
+    padding: 6px 4px;
+    display: block;
+}
+
+.lingo-dropdown-menu li:hover,
+.entry-content .lingo-dropdown-menu li:hover {
+    background-color: #bad3ea;
+    cursor: pointer;
+}
+
+.lingo-removable-box-menu,
+.entry-content .lingo-removable-box-menu {
+    padding: 3px 7px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+.lingo-removable-box-menu a:hover,
+.entry-content .lingo-removable-box-menu a:hover {
+    color: #a00;
+}
+
+.lingo-tags,
+.entry-content .lingo-tags {
+    font-size: 9px;
+}
+a.lingo-tag,
+.entry-content a.lingo-tag {
+    font-size: 9px;
+    padding: 0.1em;
+    border-radius: 3px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.tax-lingo_topic_tag .site-content article.lingo_topic {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.tax-lingo_topic_tag .site-content article.lingo_topic .entry-header,
+.tax-lingo_topic_tag .site-content article.lingo_topic .entry-meta {
+    display: none;
+}
+
+@media only screen and (max-width: 736px) {
+    .lingo-forum-header-title, 
+    .lingo-forum-title,
+    .entry-content .lingo-forum-header-title, 
+    .entry-content .lingo-forum-title {
+        width: 90%;
+        padding-left: 5px;
+    }
+    
+    .lingo-forum-title a,
+    .entry-content .lingo-forum-title a {
+        font-size: 1.2em;
+    }
+    .lingo-forum-description,
+    a.lingo_button,
+    .entry-content .lingo-forum-description,
+    .entry-content a.lingo_button{
+        font-size: 0.8em;
+        padding: 5px;
+    }
+    .lingo-small-link a,
+    .lingo-small-link,
+    .entry-content .lingo-small-link a,
+    .entry-content .lingo-small-link{
+        font-size: 0.9em;
+    }
+    
+    .lingo-post-author a,
+    .entry-content .lingo-post-author a{
+        font-size: 0.7em;
+    }
+    .lingo-post-content,
+    .entry-content .lingo-post-content {
+        font-size: 0.9em;
+        width: 75%;
+    }
+    
+    .lingo-breadcrumbs,
+    .entry-content .lingo-breadcrumbs {
+        font-size: 0.7em;
+    }
+    
+    .lingo-post-author,
+    .entry-content .lingo-post-author {
+        padding: 5px;
+        width: 25%;        
+    }
+    
+    .lingo-flash,
+    .entry-content .lingo-flash {
+        font-size: 0.7em;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .lingo-topic-tags,
+    .entry-content .lingo-topic-tags {
+        display: none;
+    }
+     
+    .lingo-topic-meta,
+    .entry-content .lingo-topic-meta {
+        width: 100% !important;
+    }
+    
+    .lingo-forum-header-stats, 
+    .lingo-forum-stats,
+    .entry-content .lingo-forum-header-stats, 
+    .entry-content .lingo-forum-stats {
+        display: none;
+    }
+    
+    .lingo-forum-header-activity, 
+    .lingo-forum-activity,
+    .entry-content .lingo-forum-header-activity, 
+    .entry-content .lingo-forum-activity {
+        display: none;
+    }
+    
+    .lingo-forum-pagination,
+    .entry-content .lingo-forum-pagination {
+        display: none;
+    }
+    
+    .lingo-column,
+    .entry-content .lingo-column {
+        padding-bottom: 0px;
+    }
+    
+    .lingo-form.lingo-form-aligned .lingo-control-group > div,
+    .entry-content .lingo-form.lingo-form-aligned .lingo-control-group > div {
+        width: 100%;
+    }
+    
+    .lingo-form input[type="text"],
+    .lingo-form input[type="password"],
+    .lingo-form input[type="email"],
+    .lingo-form input[type="url"],
+    .lingo-form input[type="date"],
+    .lingo-form input[type="month"],
+    .lingo-form input[type="time"],
+    .lingo-form input[type="datetime"],
+    .lingo-form input[type="datetime-local"],
+    .lingo-form input[type="week"],
+    .lingo-form input[type="number"],
+    .lingo-form input[type="search"],
+    .lingo-form input[type="tel"],
+    .lingo-form input[type="color"],
+    .lingo-form select,
+    .lingo-form textarea {
+        width: 100%;
+    }
+    
+    i.lingo-topic-status-icon {
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+        bottom: 0px;
+        right: -7px;
+    }
+    
+    .lingo-dropdown-menu li a,
+    .entry-content .lingo-dropdown-menu li a {
+        font-size: 0.8em;
+    }
+}
+

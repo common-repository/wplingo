@@ -1,0 +1,282 @@
+.lingo {
+
+}
+
+
+.column-posts_num,
+.column-last_post,
+.column-created,
+.column-forum{
+    width: 10%;
+}
+
+.column-status {
+    width: 5%;
+}
+
+.lingo-status {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+.lingo-closed {
+    background-color: #c00;
+}
+.lingo-pending {
+    background-color: #ca0;
+}
+.lingo-publish {
+    background-color: #86c202;
+}
+.lingo-draft {
+    background-color: #019bd7;
+}
+.closed a {
+    color: #a00;
+}
+
+.lingo-admin-post {
+    border-bottom: 1px solid #ddd;
+    display: table;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+.lingo-admin-post-trash-wraper {
+    border-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lingo-admin-post-meta {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.lingo-admin-post-meta-admin {
+    width: 50%;
+    text-align: right;  
+    float: right;
+}
+.lingo-admin-post-meta-data {
+    width: 50%;
+    float: left;
+}
+.lingo-admin-post-meta-admin a,
+.lingo-admin-post-meta-data a,
+.lingo-admin-post-avatar a,
+.lingo-admin-post-trash a{
+    text-decoration: none;
+}
+
+.lingo-admin-post-message {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+
+.lingo-admin-post-avatar {
+    display: table-cell;
+    padding: 0px 0px;
+    width: 100px;
+    text-align: center;
+    vertical-align: top;
+}
+.lingo-admin-post-avatar img {
+    border-radius: 5px;
+}
+.lingo-admin-post-rest {
+    display: inline-block;
+    width: 100%;
+}
+
+.lingo-admin-post-text {
+    width: 100%;
+    min-height: 130px;
+    
+}
+
+.lingo-admin-post-trash,
+.lingo_new_post_wraper{
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.lingo_new_post_button {
+    background-color: #aaa;
+    text-align: center;
+    border: 1px solid #888;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    -webkit-transition: all 1s; /* Safari */
+    transition: all 1s;
+}
+.lingo_new_post_button:hover {
+    background-color: #0e9300;
+    color: #fff;
+}
+
+.lingo-red,
+.lingo-trash-remove {
+    color: #a00;
+}
+.lingo-red:hover,
+.lingo-trash-remove:hover {
+    color: red;
+}
+
+.lingo-trash-restore {
+    color: #0e9300;
+}
+.lingo-trash-restore:hover {
+    color: #2ec300;
+}
+
+
+
+.lingo-single-icon {
+    padding: 0px 5px;
+}
+.lingo-toggle-icon {
+    cursor: pointer;
+    color: #72777c;
+}
+.lingo-toggle-icon:hover {
+    color: #000;
+}
+#wp-lingo_add_new_post-wrap {
+    margin-bottom: 20px;
+}
+
+.misc-pub-section .dashicons {
+    color: #82878c;
+    
+}
+
+.lingo-trash-post-actions a {
+    text-decoration: none;
+}
+
+.lingo-trash-post {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.lingo-full-width {
+    width: 100%;
+}
+
+.lingo-success-small {
+    border-left: 3px solid #46b450;
+    padding: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+th#order {
+    width: 80px;
+}
+th#status {
+    width: 80px;
+}
+td.order {
+    text-align: center;
+}
+
+.lingo-options {
+    width: 100%;
+    margin: 1em 0 0 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.lingo-options-wrap {
+    float: left;
+    width: 350px;
+    border: 1px solid #dae0e2;
+    background: #fff;
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.03);
+    box-shadow: 0 0 0 rgba(0,0,0,0.03);
+    transition: opacity 2s ease-in;
+    margin: 8px 6px 0 0;
+    margin: 0 15px 15px 0;
+}
+
+.lingo-options-item {
+    display: block;
+    text-align: left;
+    
+    /*
+    margin: 0 5px 10px 5px;
+    padding: 0.71429em 1.07143em 1em 1.07143em;
+    */
+
+    margin: 0 0 0 0;
+    /*padding: 0.71429em 1.07143em 0 1.07143em;*/
+    padding: 5px 15px 0px 15px;
+    
+}
+
+.lingo-options-item h3 {
+    margin: 0.5em 0;
+}
+
+.lingo-options-actions {
+    border-top: 1px solid #dddddd;
+    background-color: #f5f5f5;
+    clear:both;
+    overflow:hidden;
+    
+    margin: 10px 0px 0 0px;
+    padding: 0.71429em 1.07143em 1em 1.07143em;
+}
+
+.lingo-options-actions > em {
+    line-height: 28px;
+    float: left;
+}
+
+.lingo-options-actions > a {
+    float: right;
+}
+
+.lingo-form tr.lingo-field-error {
+    border: 1px solid #ee5f5b
+}
+
+.lingo-error-list {
+    color: #e9322d;
+}
+
+.lingo-form-required {
+    color: crimson;
+}
+
+tr.lingo-field-error {
+    background-color: peachpuff;
+}
+
+.lingo_config_box {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    transition: 50ms border-color ease-in-out;
+    -webkit-transition: 50ms border-color ease-in-out;
+    width: 600px;
+}
+
+.lingo_config_box a {
+    font-size: 16px;
+}
